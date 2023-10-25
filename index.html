@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CALCULATOR - Abhishek Joshi</title>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+        <div class="btn-container">
+            <div class="btn" onclick="addToDisplay('7')">7</div>
+            <div class="btn" onclick="addToDisplay('8')">8</div>
+            <div class="btn" onclick="addToDisplay('9')">9</div>
+            <div class="btn" onclick="addToDisplay('+')">+</div>
+            <div class="btn" onclick="addToDisplay('4')">4</div>
+            <div class="btn" onclick="addToDisplay('5')">5</div>
+            <div class="btn" onclick="addToDisplay('6')">6</div>
+            <div class="btn" onclick="addToDisplay('-')">-</div>
+            <div class="btn" onclick="addToDisplay('1')">1</div>
+            <div class="btn" onclick="addToDisplay('2')">2</div>
+            <div class="btn" onclick="addToDisplay('3')">3</div>
+            <div class="btn" onclick="addToDisplay('*')">*</div>
+            <div class="btn" onclick="addToDisplay('0')">0</div>
+            <div class="btn" onclick="addToDisplay('.')">.</div>
+            <div class="btn" onclick="clearDisplay()">C</div>
+            <div class="btn" onclick="calculate()">=</div>
+            <div class="btn" onclick="addToDisplay('/')">/</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
